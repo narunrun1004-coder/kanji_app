@@ -1,11 +1,15 @@
-// グローバル変数としてcanvas要素とその2D描画コンテキスト、描画状態を定義
-// これらはDOMが読み込まれてからcanvas要素が利用可能になるため、
-// setupCanvas()が呼び出される前（またはcanvas.jsの読み込み時）に取得します。
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
+// グローバル変数としてisDrawingのみを定義
 let isDrawing = false; // 描画中かどうかを示すフラグ
 
+// canvasとctxの取得はsetupCanvas関数内で行う
+let canvas;
+let ctx;
+
 function setupCanvas() {
+  // DOMContentLoadedが発火した後に要素を取得することを保証
+  canvas = document.getElementById("canvas");
+  ctx = canvas.getContext("2d");
+
   // 初期化設定
   ctx.lineWidth = 3;
   ctx.lineCap = "round";
@@ -47,19 +51,14 @@ function setupCanvas() {
 
   canvas.addEventListener('touchend', () => isDrawing = false);
   canvas.addEventListener('touchcancel', () => isDrawing = false); // タッチがキャンセルされた場合
-
-  // 「けす」ボタンはHTMLのonclick属性でclearCanvas()関数を直接呼び出しているため、
-  // ここでのイベントリスナー設定は不要です。
-  // document.getElementById("clearBtn").onclick = () => {
-  //   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  // };
 }
 
 // キャンバスをクリアする関数（HTMLの「けす」ボタンから呼び出される）
 function clearCanvas() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  // canvasとctxがsetupCanvasで正しく初期化されていることを前提とする
+  if (ctx && canvas) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  } else {
+    console.warn("CanvasまたはContextが初期化されていません。");
+  }
 }
-
-// 注意: このファイルではDOMの読み込み完了を待たずにcanvasとctxを取得しています。
-// スクリプトがHTMLのcanvas要素の前に配置されている場合は問題ありません。
-// または、kakitori.js の中で DOMContentLoaded を使って setupCanvas() を呼び出すとより安全です。
