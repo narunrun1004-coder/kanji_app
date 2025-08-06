@@ -159,7 +159,7 @@ const kanjiList = [
     {kanji:"美",on: "",kun: "",rei: "",kakijun: "07f8e"},
     {kanji:"鼻",on: "",kun: "",rei: "",kakijun: "09f3b"},
     {kanji:"筆",on: "",kun: "",rei: "",kakijun: "07b46"},
-    {kanji:"氷",on: "ヒョウ",kun: "こおり",rei: "氷山",kakijun: "051b0"},
+    {kanji:"氷",on: "ヒョウ",kun: "こおり",rei: "氷山",kakijun: "06c37"},
     {kanji:"表",on: "",kun: "",rei: "",kakijun: "08868"},
     {kanji:"秒",on: "",kun: "",rei: "",kakijun: "079d2"},
     {kanji:"病",on: "",kun: "",rei: "",kakijun: "075c5"},
