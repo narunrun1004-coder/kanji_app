@@ -132,7 +132,7 @@ const kanjiList = [
     {kanji:"定",on: "テイ",kun: "さだまる",rei: "安定",kakijun: "05b9a"},
     {kanji:"庭",on: "テイ",kun: "にわ",rei: "庭石",kakijun: "05ead"},
     {kanji:"笛",on: "テキ",kun: "ふえ",rei: "草笛",kakijun: "07b1b"},
-    {kanji:"鉄",on: "テツ",kun: "-",rei: "鉄火",kakijun: "09280"},
+    {kanji:"鉄",on: "テツ",kun: "-",rei: "鉄火",kakijun: "09244"},
     {kanji:"転",on: "テン",kun: "ころがす",rei: "転音",kakijun: "08ee2"},
     {kanji:"都",on: "ト",kun: "みやこ",rei: "都下",kakijun: "090fd"},
     {kanji:"度",on: "ド",kun: "たび",rei: "度合い",kakijun: "05ea6"},
@@ -200,4 +200,5 @@ const kanjiList = [
     {kanji:"路",on: "ロ",kun: "じ",rei: "道路",kakijun: "08def"},
     {kanji:"和",on: "ワ",kun: "あえる",rei: "令和",kakijun: "0548c"}
 ];
+
 
