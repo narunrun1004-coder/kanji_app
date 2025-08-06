@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>漢字書き取り練習</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>漢字書き取り練習</h1>
+
+  <div id="questionArea">
+    <div id="kanjiArea">
+      <h2 id="kanjiChar">□</h2>
+      <p>音読み：<span id="onReading">---</span></p>
+      <p>訓読み：<span id="kunReading">---</span></p>
+      <p>例文：<span id="rei">---</span></p>
+    </div>
+    <div id="kakijunSvg" class="svg-container"></div>
+
+    <div class="canvas-container">
+      <canvas id="canvas" width="300" height="300"></canvas><br />
+      <button onclick="clearCanvas()">けす</button>
+    </div>
+
+  </div>
+  <script src="kanji.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/kakitori.js"></script>
+</body>
+
+</html>

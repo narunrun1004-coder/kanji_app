@@ -1,0 +1,100 @@
+/* Googleっぽいデザイン */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  color: #202124;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  color: #1a73e8;
+  text-align: center;
+}
+
+button {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #155ab6;
+}
+
+.kanji-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.kanji-item {
+  list-style: none;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.kanji-link {
+  display: block;
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #202124;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3);
+  transition: box-shadow 0.2s;
+}
+
+.kanji-link:hover {
+  box-shadow: 0 3px 6px rgba(60, 64, 67, 0.3);
+}
+
+.random-button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #34a853;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.random-button:hover {
+  background-color: #0c7c3d;
+}
+
+.canvas-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  background: #fff;
+  touch-action: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.svg-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#questionArea {
+  text-align: center;
+}

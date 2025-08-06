@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ランダム10問 書き取り練習</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>ランダム10問 書き取り練習</h1>
+  <div id="questionArea">
+    <div id="quizArea">
+      <p>第 <span id="currentCount">1</span> 問 / 10</p>
+      <h2 id="kanjiMask">〇</h2>
+      <p>音読み：<span id="onReading">〇〇</span></p>
+      <p>訓読み：<span id="kunReading">〇〇</span></p>
+      <p>例文：<span id="reiText">〇〇〇〇〇〇</span></p>
+
+      <div class="canvas-container">
+        <canvas id="canvas" width="300" height="300"></canvas><br />
+        <button onclick="clearCanvas()">けす</button>
+      </div>
+
+      <button onclick="showAnswer()">回答</button>
+
+      <div id="svgArea" class="svg-container"></div>
+
+      <button onclick="markAnswer(true)">○ 正解</button>
+      <button onclick="markAnswer(false)">× 不正解</button>
+    </div>
+
+    <div id="resultArea" style="display:none; text-align:center;">
+      <h2>結果</h2>
+      <p id="score"></p>
+      <button onclick="location.reload()">もう一度</button>
+    </div>
+  </div>
+  <script src="kanji.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/random.js"></script>
+</body>
+
+</html>
