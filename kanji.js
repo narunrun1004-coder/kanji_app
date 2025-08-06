@@ -186,7 +186,7 @@ const kanjiList = [
     {kanji:"予",on: "ヨ",kun: "あらかじめ",rei: "予算",kakijun: "04e88"},
     {kanji:"羊",on: "ヨウ",kun: "ひつじ",rei: "羊毛",kakijun: "07f8a"},
     {kanji:"洋",on: "ヨウ",kun: "-",rei: "洋弓",kakijun: "06d0b"},
-    {kanji:"葉",on: "ヨウ",kun: "葉",rei: "葉肉",kakijun: "08449"},
+    {kanji:"葉",on: "ヨウ",kun: "よう",rei: "葉肉",kakijun: "08449"},
     {kanji:"陽",on: "ヨウ",kun: "ひ",rei: "太陽",kakijun: "0967d"},
     {kanji:"様",on: "ヨウ",kun: "さま",rei: "王様",kakijun: "069d8"},
     {kanji:"落",on: "ラク",kun: "おちる",rei: "落下",kakijun: "0843d"},
@@ -200,3 +200,4 @@ const kanjiList = [
     {kanji:"路",on: "ロ",kun: "じ",rei: "道路",kakijun: "08def"},
     {kanji:"和",on: "ワ",kun: "あえる",rei: "令和",kakijun: "0548c"}
 ];
+
