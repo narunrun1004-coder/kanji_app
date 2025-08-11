@@ -138,7 +138,7 @@ const kanjiList = [
     {kanji:"度",on: "ド",kun: "たび",rei: "度合い",kakijun: "05ea6"},
     {kanji:"投",on: "トウ",kun: "なげる",rei: "投下",kakijun: "06295"},
     {kanji:"豆",on: "トウ",kun: "まめ",rei: "大豆",kakijun: "08c46"},
-    {kanji:"島",on: "トウ",kun: "しま",rei: "佐渡ヶ島",kakijun: "05c9b"},
+    {kanji:"島",on: "トウ",kun: "しま",rei: "佐渡ヶ島",kakijun: "05cf6"},
     {kanji:"湯",on: "トウ",kun: "ゆ",rei: "湯気",kakijun: "06e6f"},
     {kanji:"登",on: "トウ",kun: "のぼる",rei: "登戸",kakijun: "0767b"},
     {kanji:"等",on: "トウ",kun: "ひとしい",rei: "等級",kakijun: "07b49"},
@@ -200,5 +200,6 @@ const kanjiList = [
     {kanji:"路",on: "ロ",kun: "じ",rei: "道路",kakijun: "08def"},
     {kanji:"和",on: "ワ",kun: "あえる",rei: "令和",kakijun: "0548c"}
 ];
+
 
 
