@@ -31,7 +31,7 @@ const kanjiList = [
     {kanji:"客",on: "キャク",kun: "-",rei: "お客様",kakijun: "05ba2"},
     {kanji:"究",on: "キュウ",kun: "きわめる",rei: "究明",kakijun: "07a76"},
     {kanji:"急",on: "キュウ",kun: "いそぐ",rei: "急行",kakijun: "06025"},
-    {kanji:"級",on: "キュウ",kun: "-",rei: "1級",kakijun: "07dda"},
+    {kanji:"級",on: "キュウ",kun: "-",rei: "1級",kakijun: "07d1a"},
     {kanji:"宮",on: "キュウ",kun: "みや",rei: "宮古",kakijun: "05bae"},
     {kanji:"球",on: "キュウ",kun: "たま",rei: "野球",kakijun: "07403"},
     {kanji:"去",on: "キョ",kun: "さる",rei: "去年",kakijun: "053bb"},
@@ -200,6 +200,7 @@ const kanjiList = [
     {kanji:"路",on: "ロ",kun: "じ",rei: "道路",kakijun: "08def"},
     {kanji:"和",on: "ワ",kun: "あえる",rei: "令和",kakijun: "0548c"}
 ];
+
 
 
 
