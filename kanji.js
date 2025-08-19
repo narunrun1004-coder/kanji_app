@@ -205,3 +205,4 @@ const kanjiList = [
 
 
 
+
