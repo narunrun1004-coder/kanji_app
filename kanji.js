@@ -121,7 +121,7 @@ const kanjiList = [
     {kanji:"題",on: "ダイ",kun: "-",rei: "題名",kakijun: "0984c"},
     {kanji:"炭",on: "タン",kun: "すみ",rei: "炭水化物",kakijun: "070ad"},
     {kanji:"短",on: "タン",kun: "みじかい",rei: "短命",kakijun: "077ed"},
-    {kanji:"談",on: "ダン",kun: "-",rei: "談合",kakijun: "08acb"},
+    {kanji:"談",on: "ダン",kun: "-",rei: "談合",kakijun: "08ac7"},
     {kanji:"着",on: "チャク",kun: "きせる",rei: "着せる",kakijun: "07740"},
     {kanji:"注",on: "チュウ",kun: "そそぐ",rei: "注意",kakijun: "06ce8"},
     {kanji:"柱",on: "チュウ",kun: "はしら",rei: "柱石",kakijun: "067f1"},
@@ -200,6 +200,7 @@ const kanjiList = [
     {kanji:"路",on: "ロ",kun: "じ",rei: "道路",kakijun: "08def"},
     {kanji:"和",on: "ワ",kun: "あえる",rei: "令和",kakijun: "0548c"}
 ];
+
 
 
 
